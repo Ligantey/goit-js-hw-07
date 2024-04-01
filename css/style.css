@@ -34,10 +34,6 @@ img {
   display: block;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 16px;
   font-family: 'Segoe UI', Roboto, Oxygen, 'Open Sans', 'Helvetica Neue',
@@ -57,4 +53,73 @@ body {
   height: 200px;
   object-fit: cover;
   margin: 15px;
+}
+
+/* css task-1 */
+
+.item {
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+
+  color: #2e2f42;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+}
+
+.item-list {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.li.item-list {
+  width: 360px;
+  border: 808080;
+  border-radius: 8px;
+  padding: 16px;
+}
+/* css task-2 */
+.gallery {
+  width: 1128px;
+}
+
+.gallery-item.img {
+  width: 360px;
+  height: 300px;
+}
+
+/* css task-3 */
+h1,
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#name-input {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding: 6px;
+  width: 360px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
